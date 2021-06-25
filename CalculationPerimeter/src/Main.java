@@ -6,7 +6,7 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main(String[] args) {
-        double edge1, edge2, hyp, perimeter;
+        double edge1, edge2, hyp, perimeter ,area;
 
         Scanner input = new Scanner(System.in);
 
@@ -19,7 +19,10 @@ public class Main {
         hyp = Math.sqrt(edge1 * edge1 + edge2 * edge2);
         perimeter = edge1 + edge2 + hyp;
 
+        area = edge1 * edge2 / 2;
+
         System.out.println("Perimeter: " + perimeter);
+        System.out.println("Area: " + area);
         System.out.println("Length of hypotenuse: " + hyp);
 
     }
