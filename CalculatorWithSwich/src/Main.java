@@ -16,13 +16,28 @@ public class Main {
         System.out.print("1- Addition\n2- Subtraction\n3- Multiplication\n4- Division\nChoice:");
         choice = input.nextInt();
 
-        result = switch (choice) {
-            case 1 -> num1 + num2;
-            case 2 -> num1 - num2;
-            case 3 -> num1 * num2;
-            default -> num1 * 1.0 / num2;
-        };
+        switch (choice) {
+            case 1:
+                System.out.println("Result: " +  (num1 + num2));
+                break;
+            case 2:
+                System.out.println("Result: " +  (num1 - num2));
+                break;
+            case 3:
+                System.out.println("Result: " +  (num1 * num2));
+                break;
+            case 4:
+                if(num2 == 0) {
+                    System.out.println("Zero division problem.\nnum2 should not be 0");
+                } else {
+                    System.out.println("Result: " +  num1 / num2);
+                }
+                break;
+            default:
+                System.out.println("Wrong  choice!");
+                break;
+        }
 
-        System.out.println("Result: " + result);
+
     }
 }
