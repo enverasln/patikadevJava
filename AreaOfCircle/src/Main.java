@@ -5,21 +5,20 @@ public class Main {
 
     public static void main(String[] args) {
         double radius;
-        double perimeter;
         double area;
+        double degree;
 
         Scanner input = new Scanner(System.in);
 
         System.out.print("Please enter radius of the circle: ");
         radius = input.nextDouble();
 
-        // Calculate the perimeter
-        perimeter = 2 * radius * PI;
+        System.out.print("Please enter the degree: ");
+        degree = input.nextDouble();
 
         // Calculate the area
-        area = radius * radius * PI;
+        area = radius * radius * PI * degree / 360;
 
-        System.out.println("Perimeter: " + perimeter);
         System.out.println("Area: " + area);
     }
 }
