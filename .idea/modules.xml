@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AreaOfCircle/AreaOfCircle.iml" filepath="$PROJECT_DIR$/AreaOfCircle/AreaOfCircle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AverageGrade/AverageGrade.iml" filepath="$PROJECT_DIR$/AverageGrade/AverageGrade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BodyMassIndex/BodyMassIndex.iml" filepath="$PROJECT_DIR$/BodyMassIndex/BodyMassIndex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CalculateTax/CalculateTax.iml" filepath="$PROJECT_DIR$/CalculateTax/CalculateTax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CalculationPerimeter/CalculationPerimeter.iml" filepath="$PROJECT_DIR$/CalculationPerimeter/CalculationPerimeter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CalculatorWithSwich/CalculatorWithSwich.iml" filepath="$PROJECT_DIR$/CalculatorWithSwich/CalculatorWithSwich.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Graduation/Graduation.iml" filepath="$PROJECT_DIR$/Graduation/Graduation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Greengrocer/Greengrocer.iml" filepath="$PROJECT_DIR$/Greengrocer/Greengrocer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Taximeter/Taximeter.iml" filepath="$PROJECT_DIR$/Taximeter/Taximeter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/patikadevJava.iml" filepath="$PROJECT_DIR$/.idea/patikadevJava.iml" />
+    </modules>
+  </component>
+</project>
